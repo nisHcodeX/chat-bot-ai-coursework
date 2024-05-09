@@ -1,0 +1,233 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hi! How can I assist you today?",
+        "Hello! How can I assist you today?",
+        "Hey! How can I help you today?",
+        "Good day! How can I assist you today?",
+        "Good day! How can I help you today?"
+      ]
+    },
+    {
+      "tag": "enrollment",
+      "patterns": [
+        "What do I need to enroll?",
+        "Tell me about the enrollment process",
+        "What are the requirements to apply?",
+        "How does the admission process work?"
+      ],
+      "responses": [
+        "The general admission requirements include a high school diploma for undergraduates or a bachelor's degree for graduate studies. You'll also need to submit your transcripts and any required test scores.",
+        "You can apply for admission online through our student portal. Be sure to submit all necessary documents by the application deadline.",
+        "Course registration typically ends two weeks before the semester begins. Make sure to register on time!",
+        "The enrollment process involves submitting your application, transcripts, and test scores. You'll also need to pay the application fee."
+      ]
+    },
+    {
+      "tag": "programInfo",
+      "patterns": [
+        "What programs do you offer?",
+        "Can I get information on your degree programs?",
+        "I'm interested in part-time studies, what can I do?",
+        "Are there any distance learning options available?",
+        "I need to change my major, who should I talk to?",
+        "Can I take some courses online?",
+        "What degrees can I earn at your college?",
+        "Do you offer graduate programs?",
+        "What undergraduate programs do you have?",
+        "Can I study business at your college?",
+        "What engineering programs are available?",
+        "Are there health sciences programs at your college?",
+        "Can I take evening classes?",
+        "What part-time programs do you offer?"
+      ],
+      "responses": [
+        "We offer a variety of programs at both undergraduate and graduate levels, including business, engineering, and health sciences. Check our course catalog for more details.",
+        "Part-time study options are available for most programs. You can manage your schedule and even take some courses online.",
+        "Our distance learning programs include several online degrees in fields such as business and computer science.",
+        "If you're interested in changing your major, please speak with your academic advisor to discuss your options.",
+        "You can take some courses online as part of our distance learning programs. Check the course catalog for available online courses.",
+        "We offer undergraduate and graduate programs in business, engineering, health sciences, and other fields. You can find more information in our course catalog.",
+        "Our college offers a range of undergraduate programs in business, engineering, health sciences, and other fields. You can find more information in our course catalog.",
+        "We offer graduate programs in various fields, including business, engineering, and health sciences. Check our course catalog for more details.",
+        "Our undergraduate programs include business, engineering, health sciences, and other fields. You can find more information in our course catalog.",
+        "Yes, you can study business at our college. We offer undergraduate and graduate programs in business administration, management, and related fields.",
+        "We offer engineering programs at both undergraduate and graduate levels. You can find more information in our course catalog.",
+        "Our college offers health sciences programs at both undergraduate and graduate levels. You can find more information in our course catalog.",
+        "Evening classes are available for some courses. Check the course schedule for more information.",
+        "We offer part-time programs in various fields. You can find more information in our course catalog."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What campus amenities are available?",
+        "Can you list the facilities on campus?",
+        "Where is the library located?",
+        "Do you have a fitness center?",
+        "What sports can I play at college?",
+        "Are there any computer labs on campus?"
+      ],
+      "responses": [
+        "Campus amenities include a library, fitness center, computer labs, sports facilities, and dining options. You can find more information on campus amenities on the college website.",
+        "Facilities on campus include a library, fitness center, computer labs, sports facilities, and dining options. You can find more information on campus facilities on the college website.",
+        "The library is located near the student center and offers a range of resources, including books, journals, and study spaces. You can find the library on the campus map or website.",
+        "The fitness center is located near the student center and offers a range of equipment and classes for students. You can find the fitness center on the campus map or website.",
+        "Sports available at college include basketball, soccer, volleyball, tennis, and more. You can join a sports team, participate in intramural sports, or use the sports facilities on campus.",
+        "Computer labs are available on campus for student use. You can access the computer labs for research, coursework, and other academic activities. You can find the computer labs on the campus map or website."
+      ]
+    },
+    {
+      "tag": "academic_support",
+      "patterns": [
+        "What academic resources do you provide?",
+        "How can I join a study group?",
+        "Where do I find tutoring services?",
+        "Is there academic advising available?",
+        "I need help with my coursework, who can I speak to?",
+        "Can I get help with my studies?"
+      ],
+      "responses": [
+        "Academic resources available to students include tutoring services, study groups, academic advising, and writing centers. You can access these resources through the student center or academic support office.",
+        "You can join a study group by attending study group meetings, forming a study group with classmates, or using online study group platforms. Study groups are a great way to review course material and prepare for exams.",
+        "Tutoring services are available to help students with coursework, assignments, and exam preparation. You can schedule a tutoring appointment, attend drop-in tutoring sessions, or use online tutoring resources.",
+        "Academic advising is available to help students with course selection, degree planning, academic policies, and other academic matters. You can schedule an appointment with an academic advisor for personalized guidance.",
+        "If you need help with your coursework, you can speak to your professors, academic advisor, or a tutor. They can provide guidance, support, and resources to help you succeed in your studies.",
+        "Yes, you can get help with your studies through tutoring services, study groups, academic advising, and other academic support resources. You can access these resources through the student center or academic support office."
+      ]
+    },
+    {
+      "tag": "financial_aid",
+      "patterns": [
+        "How can I apply for financial aid?",
+        "What scholarships are available?",
+        "Can I get a student loan?",
+        "Do you offer work-study programs?",
+        "How do I qualify for financial aid?",
+        "What are the requirements for a scholarship?",
+        "Can I get a grant?",
+        "What is the cost of tuition?",
+        "How can I pay for college?",
+        "What financial aid options are available?"
+      ],
+      "responses": [
+        "You can apply for financial aid by completing the Free Application for Federal Student Aid (FAFSA) online. Be sure to submit the FAFSA by the deadline to be considered for financial aid.",
+        "Scholarships are available based on academic achievement, financial need, and other criteria. You can find information on scholarships and how to apply on the college website.",
+        "Student loans are available to help you pay for college. You can apply for federal student loans by completing the Free Application for Federal Student Aid (FAFSA) online.",
+        "Work-study programs are available to help you earn money while you're in school. You can apply for work-study by completing the Free Application for Federal Student Aid (FAFSA) online.",
+        "To qualify for financial aid, you must complete the Free Application for Federal Student Aid (FAFSA) and meet the eligibility requirements for federal student aid. Be sure to submit the FAFSA by the deadline to be considered for financial aid.",
+        "Requirements for scholarships vary by scholarship program and may include academic achievement, financial need, community service, and other criteria. You can find information on scholarship requirements on the college website.",
+        "Grants are available to help you pay for college and are typically based on financial need. You can apply for federal grants by completing the Free Application for Federal Student Aid (FAFSA) online.",
+        "The cost of tuition varies by program, residency status, and enrollment status. You can find information on tuition and fees in the college catalog or on the college website.",
+        "You can pay for college using a combination of financial aid, scholarships, grants, student loans, and personal funds. Be sure to explore all of your options for paying for college.",
+        "Financial aid options available to students include scholarships, grants, student loans, work-study programs, and payment plans. You can find information on financial aid options on the college website."
+      ]
+    },
+    {
+      "tag": "career_services",
+      "patterns": [
+        "How can I find a job after graduation?",
+        "Do you offer career counseling services?",
+        "Can I get help with my resume?",
+        "What job placement services are available?",
+        "Are there internship opportunities?",
+        "How can I prepare for a job interview?",
+        "What career resources are available to students?"
+      ],
+      "responses": [
+        "Career services include job search assistance, resume writing, interview preparation, and networking opportunities. You can schedule an appointment with a career counselor for personalized assistance.",
+        "Career counseling services are available to help you explore career options, set career goals, and develop job search strategies. You can schedule an appointment with a career counselor for assistance.",
+        "You can get help with your resume by visiting the career services office or attending a resume writing workshop. Career counselors can provide feedback and tips for improving your resume.",
+        "Job placement services are available to help you find employment after graduation. You can access job listings, attend job fairs, and connect with employers through the career services office.",
+        "Internship opportunities are available to help you gain work experience and explore career options. You can find internship listings and resources through the career services office.",
+        "To prepare for a job interview, consider attending an interview workshop, scheduling a mock interview, or meeting with a career counselor for tips and advice.",
+        "Career resources available to students include job listings, resume writing assistance, interview preparation, and networking opportunities. You can access these resources through the career services office."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks for the help",
+        "I appreciate your assistance",
+        "Thank you, that answers my question",
+        "Thanks a lot",
+        "That was very helpful"
+      ],
+      "responses": [
+        "You're welcome! Anything else you need?",
+        "Glad to help! Let me know if there's anything else I can do for you.",
+        "No problem! Feel free to ask if you have more questions.",
+        "You're welcome! If you have any more questions, just let me know.",
+        "Happy to help! If you need further assistance, don't hesitate to ask."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye for now",
+        "That's all, goodbye",
+        "Thanks, bye"
+      ],
+      "responses": [
+        "Goodbye! Feel free to return if you have more questions.",
+        "See you later! Have a great day ahead.",
+        "Goodbye! If you need help in the future, don't hesitate to ask."
+      ]
+    },
+    {
+      "tag": "positive_feedback",
+      "patterns": [
+        "I like your service",
+        "You're doing a great job",
+        "I'm satisfied with your help",
+        "You're very helpful",
+        "I appreciate your assistance",
+        "ok",
+        "okay",
+        "good"
+      ],
+      "responses": [
+        "Thank you! I'm here to help you with anything you need.",
+        "I'm glad you're satisfied with my assistance. Let me know if you have any more questions.",
+        "I'm happy to help! If you need further assistance, feel free to ask.",
+        "Thank you for your positive feedback! I'm here to assist you with anything you need.",
+        "I'm glad I could help! If you have any more questions, don't hesitate to ask.",
+        "Great to hear that you're satisfied with my assistance. Let me know if you need help with anything else.",
+        "I'm glad you're satisfied with my assistance. Let me know if you have any more questions.",
+        "I'm happy to help! If you need further assistance, feel free to ask.",
+        "Thank you for your positive feedback! I'm here to assist you with anything you need.",
+        "I'm glad I could help! If you have any more questions, don't hesitate to ask.",
+        "Great to hear that you're satisfied with my assistance. Let me know if you need help with anything else."
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [
+        "I'm confused",
+        "Sorry, could you help me understand better?",
+        "I didn't get that",
+        "Can you explain again?",
+        "I'm having trouble understanding",
+        "I need more information"
+      ],
+      "responses": [
+        "I'm sorry, I'm not sure I understand. Can you provide more details?",
+        "I apologize if I'm not being clear. Can you please rephrase your question?",
+        "I'm sorry, I'm having trouble understanding. Can you please clarify your question?",
+        "I apologize for any confusion. Can you please provide more information?",
+        "I'm sorry, I'm not sure I understand. Can you please rephrase your question?",
+        "I'm sorry, I'm having trouble understanding. Can you please clarify your question?",
+        "I apologize for any confusion. Can you please provide more information?"
+      ]
+    }
+  ]
+}
