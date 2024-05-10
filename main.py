@@ -12,7 +12,7 @@ def home():
 
 def predict():
     text = request.get_json().get("message")
-    check =get_response_final(text)
+    check = get_response_final(text)
 
     res = {"answer": check}
     res_msg = jsonify(res)
