@@ -4,13 +4,17 @@ import pickle
 import numpy as np
 import nltk
 from keras.models import load_model
+from nltk.stem import WordNetLemmatizer
 
 intends = json.load(open('intends.json'))
 
 words = pickle.load(open('words.pkl', 'rb'))
 tags = pickle.load(open('tags.pkl', 'rb'))
 model = load_model('chatbot_model.h5')
-from main import stem
+lemmatizer = WordNetLemmatizer()
+
+def stem(word):
+    return lemmatizer.lemmatize(word.lower())
 
 def clean_up_sentence(sentence):
     sentence_words = nltk.word_tokenize(sentence)
@@ -54,3 +58,5 @@ while True:
     ints = predict_class (message)
     res = get_response (ints, intends)
     print (res)
+    if ints[0]['intent'] == "goodbye":
+        break 
