@@ -31,6 +31,7 @@ class Chatbox {
         // show or hides the box
         if(this.state) {
             chatbox.classList.add('chatbox--active')
+            this.messages = [];
         } else {
             chatbox.classList.remove('chatbox--active')
         }
@@ -56,7 +57,7 @@ class Chatbox {
           })
           .then(r => r.json())
           .then(r => {
-            let msg2 = { name: "Sam", message: r.answer };
+            let msg2 = { name: "ai-reply", message: r.answer };
             this.messages.push(msg2);
             this.updateChatText(chatbox)
             textField.value = ''
@@ -71,7 +72,7 @@ class Chatbox {
     updateChatText(chatbox) {
         var html = '';
         this.messages.slice().reverse().forEach(function(item, index) {
-            if (item.name === "Sam")
+            if (item.name === "ai-reply")
             {
                 html += '<div class="messages__item messages__item--visitor">' + item.message + '</div>'
             }

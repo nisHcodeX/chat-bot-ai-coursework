@@ -52,11 +52,10 @@ def get_response(intents_list, intents_json):
     return result
 
 print("GO! Bot is running!")
-
-while True:
-    message = input("")
-    ints = predict_class (message)
-    res = get_response (ints, intends)
-    print (res)
-    if ints[0]['intent'] == "goodbye":
-        break 
+def get_response_final(msg):
+    ints = predict_class (msg)
+    if len(ints) > 0 : 
+        res = get_response (ints, intends)
+    else:
+        res = "I didnt get that explain more"
+    return res
