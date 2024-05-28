@@ -22,9 +22,6 @@ def stem(word):
 def tokernize(token_word):
     return nltk.word_tokenize(token_word)
 
-def bag_of_words(token_word):
-    pass
-
 for intent in intends['intents']:
     tag = intent['tag']
     tags.append(tag)

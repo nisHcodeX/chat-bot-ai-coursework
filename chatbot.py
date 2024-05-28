@@ -33,7 +33,7 @@ def bag_of_words (sentence):
 def predict_class (sentence):
     bow = bag_of_words (sentence)
     res = model.predict(np.array([bow]))[0]
-    ERROR_THRESHOLD = 0.25
+    ERROR_THRESHOLD = 0.7
     results = [[i, r] for i, r in enumerate(res) if r > ERROR_THRESHOLD]
 
     results.sort(key=lambda x: x[1], reverse=True)
@@ -43,6 +43,8 @@ def predict_class (sentence):
     return return_list
 
 def get_response(intents_list, intents_json):
+    if not intents_list:
+        return "I am not sure how to response that. Could you please repharaphse this?"
     tag = intents_list[0]['intent']
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
@@ -54,8 +56,4 @@ def get_response(intents_list, intents_json):
 print("GO! Bot is running!")
 def get_response_final(msg):
     ints = predict_class (msg)
-    if len(ints) > 0 : 
-        res = get_response (ints, intends)
-    else:
-        res = "I didnt get that explain more"
-    return res
+    return get_response(ints, intends)
